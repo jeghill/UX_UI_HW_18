@@ -41,6 +41,7 @@ nav {
     font-size: 24px;
     font-family: 'Heebo', 'Arial', 'Sans Serif';
     color: #25281F;
+    transition: 0.2s;
     
 }
 
@@ -51,4 +52,13 @@ nav {
 
 p {
     font-weight: 700;
+}
+
+.primaryNavigationContainer a:hover {
+    font-weight:600;
+}
+
+.primaryNavigationContainer a:active {
+    font-weight: bold;
+    border-bottom: 3px solid #25281F;
 }
