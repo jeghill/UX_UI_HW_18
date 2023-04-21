@@ -62,3 +62,28 @@ p {
     font-weight: bold;
     border-bottom: 3px solid #25281F;
 }
+
+.project {
+    display: flex;
+    gap: 30px;
+}
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.projectText h2 {
+    margin-top: 0;
+}
+
+.projectButton {
+  
+}
+
+@media only screen and (max-width: 500px) {
+    .project {
+        flex-direction: column;
+    }
+}
