@@ -77,13 +77,15 @@ nav {
 }
 .heroImg {
     width: 55%;
-    height: 100%;
+    /*height: 100%;*/
     object-fit: cover;
+    /*added */overflow: hidden;
 }
 
 .heroImg img {
-    max-width: 100%;
+    /*max-width: 100%;
     object-fit: cover;
+    so now image is right width but height is full size and sides not cropped*/
     
 }
 .introContainer {
