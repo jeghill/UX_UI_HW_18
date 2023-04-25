@@ -51,9 +51,7 @@ nav {
     border-bottom: 3px solid #25281F;
 }
 
-p {
-    font-weight: 700;
-}
+
 
 .primaryNavigationContainer a:hover {
     font-weight:600;
@@ -69,10 +67,18 @@ p {
     margin: 0 auto;
     width: 80%;
     gap: 50px;
+    padding-bottom: 65px;
 }
 .heroImg {
     width: 55%;
-    max-width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroImg img {
+    max-width: 100%;
+    object-fit: cover;
+    
 }
 .introContainer {
     background-color: #F3B56C;
@@ -84,15 +90,38 @@ p {
 
 .introText h1 {
     margin-top: 0px;
+    color: #25281F;
+    font-family: 'Domine', 'Georgia', 'serif';
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .introText h3 {
     margin-bottom: 0px;
+    color:#25281F;
+    font-size: 28px;
+    font-family: 'Heebo', 'Arial', 'Sans Serif';
+    font-weight: 400;
 }
+
+.projects {
+    width: 100%;
+    background-color: #BBDDEC;
+    padding: 65px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    align-items: center;
+}
+
 
 .project {
     display: flex;
     gap: 50px;
+    background-color: white;
+    width: 80%;
+    padding: 55px 96px;
+    max-width: 1130px;
 }
 .projectInfo {
     display: flex;
@@ -119,4 +148,8 @@ p {
      .heroImg {
         width: 100%;
      } 
+     .introContainer {
+        margin: 0 auto;
+        width: 100%;
+     }
 }
